@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background-main img {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 12%;
+  position: absolute;
+}
+
+.navbar-top {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.final-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.list {
+  position: absolute;
+  left: 56%;
+}
+
+.profile {
+  position: absolute;
+  width: 7%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.moh {
+  position: absolute;
+  left: 8%;
+  width: 175px;
+  height: 75px;
+}
+
+.dropmenu {
+  position: absolute;
+  left: 39%;
+}
+
+.dropdown {
+  margin-top: 19px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 135%;
+  color: white;
+  font-size: 11px;
+  background-color: #106ba2;
+  cursor: pointer;
+}
+
+select .lt {
+  text-align: center;
+}
+
+.dropdown-icon {
+  position: absolute;
+  height: 13px;
+  width: 17px;
+  top: 29px;
+  padding-left: 8px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 21px 0;
+}
+
+.nav-list .content {
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.sg-gov {
+  position: absolute;
+  left: 81%;
+}
+
+.sg {
+  width: 230px;
+  height: 55px;
+  padding: 8px;
+}
+
+.vl {
+  position: absolute;
+  left: 55%;
+  font-size: 50px;
+  color: gray;
+}
+
+.vll {
+  position: absolute;
+  left: 80%;
+  font-size: 50px;
+  color: gray;
+}
+
+.navbar-left {
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c3edf5), color-stop(35%, #c0ebf1), color-stop(45%, #dff7f8), to(#dff7f8));
+  background: linear-gradient(to bottom, #c3edf5 0%, #c0ebf1 35%, #dff7f8 45%, #dff7f8 100%);
+  width: 7%;
+  height: 88%;
+  top: 12%;
+}
+
+.leftnav-list {
+  list-style: none;
+  cursor: pointer;
+}
+
+.leftnav-items img {
+  padding: 10px 20px 0px;
+}
+
+.leftnav-items:not(:last-child) {
+  border-bottom: 1px solid #106ba2;
+}
+
+.leftnav-items p {
+  font-family: "Poppins", sans-serif;
+  color: #106ba2;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+@media only screen and (max-width: 990px) {
+  .leftnav-items img {
+    padding: 4px 6px;
+    width: 48px;
+    height: 47px;
+  }
+  .leftnav-items p {
+    font-size: 8px;
+    padding-bottom: 2px;
+  }
+  .moh {
+    left: 7%;
+    width: 150px;
+    height: 70px;
+  }
+  .dropmenu {
+    left: 36%;
+  }
+  .dropdown {
+    margin-top: 19px;
+    padding: 8px;
+    width: 100%;
+  }
+  .list {
+    left: 52%;
+  }
+  .nav-list {
+    padding: 21px 15px;
+  }
+  .nav-list img {
+    height: 21px;
+    width: 20px;
+  }
+  .sg-gov {
+    left: 81%;
+  }
+  .sg {
+    width: 160px;
+    height: 50px;
+    padding: 8px;
+  }
+  .vl {
+    font-size: 48px;
+    left: 53%;
+  }
+  .vll {
+    font-size: 48px;
+  }
+  .in-progress {
+    width: 150px;
+    height: 50px;
+    left: 34%;
+    top: 11%;
+  }
+  .my-task {
+    width: 300px;
+    height: 180px;
+    top: 33%;
+    left: 37%;
+  }
+  .mytask-image {
+    height: 140px;
+    width: 200px;
+    padding-left: 40px;
+  }
+}
+
+.main {
+  position: absolute;
+  background-color: #FAF9F6;
+  width: 90%;
+  height: 85%;
+  left: 8.5%;
+  top: 15%;
+  border-radius: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-header {
+  margin-left: 25px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.welcome-container {
+  background-color: white;
+  width: 360px;
+  height: 200px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 35px;
+  -webkit-box-shadow: 0 0 5px 0 #989e9e;
+          box-shadow: 0 0 5px 0 #989e9e;
+}
+
+.welcome-text {
+  color: white;
+  background-color: #106ba2;
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.far {
+  position: absolute;
+  background-color: #dddbdb;
+  padding: 25px;
+  border-radius: 100%;
+  border: 5px solid white;
+  left: 270px;
+  top: 100px;
+}
+
+.info {
+  padding: 40px 10px 0 20px;
+}
+
+.info-count {
+  color: #12a712;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.btn-profile {
+  position: absolute;
+  padding: 10px 15px;
+  background-color: #106ba2;
+  color: white;
+  border: none;
+  left: 270px;
+  top: 210px;
+  cursor: pointer;
+}
+
+.in-progress {
+  position: absolute;
+  background-color: white;
+  width: 230px;
+  height: 70px;
+  border-radius: 7px;
+  left: 37%;
+  top: 11%;
+  border: 0.2px solid #cccbcb;
+  border-bottom: 3px solid green;
+  -webkit-box-shadow: 0 0 1px 0 #989e9e;
+          box-shadow: 0 0 1px 0 #989e9e;
+  cursor: pointer;
+}
+
+.approved {
+  position: absolute;
+  background-color: white;
+  width: 230px;
+  height: 70px;
+  border-radius: 7px;
+  left: 57.7%;
+  top: 11%;
+  border: 0.2px solid #dddbdb;
+  border-bottom: 3px solid #eb0b0b;
+  -webkit-box-shadow: 0 0 1px 0 #989e9e;
+          box-shadow: 0 0 1px 0 #989e9e;
+  cursor: pointer;
+}
+
+.hold {
+  position: absolute;
+  background-color: white;
+  width: 230px;
+  height: 70px;
+  border-radius: 7px;
+  left: 78.5%;
+  top: 11%;
+  border: 0.2px solid #dddbdb;
+  border-bottom: 3px solid #caca0d;
+  -webkit-box-shadow: 0 0 1px 0 #989e9e;
+          box-shadow: 0 0 1px 0 #989e9e;
+  cursor: pointer;
+}
+
+.status-inprogress {
+  position: absolute;
+  text-align: right;
+  font-weight: bold;
+  padding: 7px;
+  top: 1px;
+  left: 48%;
+}
+
+.status-approved {
+  position: absolute;
+  text-align: right;
+  font-weight: bold;
+  padding: 7px;
+  top: 1px;
+  left: 52%;
+}
+
+.status-hold {
+  position: absolute;
+  text-align: right;
+  font-weight: bold;
+  padding: 7px;
+  top: 1px;
+  left: 69%;
+}
+
+.status-icon {
+  padding: 15px 20px;
+}
+
+.time {
+  background-color: #106ba2;
+  width: 360px;
+  height: 120px;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left: 35px;
+  -webkit-box-shadow: 0 0 5px 0 #989e9e;
+          box-shadow: 0 0 5px 0 #989e9e;
+  cursor: pointer;
+}
+
+.time-header {
+  padding: 31px;
+  color: white;
+}
+
+.time-date {
+  position: absolute;
+  background-color: white;
+  color: #15b415;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 180px;
+  height: 120px;
+  left: 215px;
+  top: 283px;
+}
+
+.time-date p {
+  padding: 20px 20px 0 20px;
+}
+
+.time-date span {
+  color: black;
+}
+
+.my-task {
+  position: absolute;
+  background-color: white;
+  width: 350px;
+  height: 230px;
+  border-radius: 15px;
+  top: 33%;
+  left: 37%;
+  -webkit-box-shadow: 0 0 5px 0 #989e9e;
+          box-shadow: 0 0 5px 0 #989e9e;
+  cursor: pointer;
+}
+
+.sla {
+  position: absolute;
+  background-color: white;
+  width: 350px;
+  height: 230px;
+  border-radius: 15px;
+  top: 33%;
+  left: 69%;
+  -webkit-box-shadow: 0 0 5px 0 #989e9e;
+          box-shadow: 0 0 5px 0 #989e9e;
+  cursor: pointer;
+}
+
+.my-task p {
+  padding: 10px 0 0 20px;
+  font-weight: bold;
+}
+
+.sla p {
+  padding: 10px 0 0 20px;
+  font-weight: bold;
+}
+
+.mytask-image {
+  height: 180px;
+  width: 250px;
+  padding-left: 60px;
+}
+
+.sla-image {
+  height: 180px;
+  width: 250px;
+  padding-left: 60px;
+}
+
+.box {
+  background-color: white;
+  width: 94.5%;
+  height: 19%;
+  position: absolute;
+  left: 3%;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 0 2px 0 #989e9e;
+          box-shadow: 0 0 2px 0 #989e9e;
+}
+
+.box i {
+  padding-right: 10px;
+}
+
+.btn-search {
+  border: none;
+  color: white;
+  background-color: #0dc5c5;
+  padding: 7px 10px;
+  margin: 10px 15px 0 25px;
+  cursor: pointer;
+}
+
+.btn-view {
+  border: none;
+  color: white;
+  background-color: #1a7c2a;
+  padding: 7px 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  border: none;
+  color: white;
+  background-color: #bd1515;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+.table {
+  width: 96%;
+  border: 1px solid #106ba2;
+  padding: 5px;
+  color: white;
+  background-color: #106ba2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 10px 0 0 25px;
+}
+
+.table th {
+  font-weight: lighter;
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */

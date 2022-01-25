@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="background-main" >
+            <img src="images/ser.jpg" alt="background" />
+        </div>
+
+        <!-- Main container -->
+
+        <div class="main">
+            <h5 class="main-header">FIELD OFFICER DASHBOARD</h5>
+            <div class="welcome-container">
+                <div class="welcome-text">
+                    <h4>Welcome !</h4>
+                    <p>Field Officer 1</p>
+                </div>
+                <i class="far fa-user fa-3x"></i>
+                <div class="info">
+                    <p class="info-count">1</p>
+                    <p>In Progress</p>
+                </div>
+                <button class="btn-profile">View Profile</button>
+            </div>
+            <div class="in-progress">
+                <img class="status-icon" src="images/group1.png" alt="group1" height="40px" width="40px"/>
+                <p class="status-inprogress">In Progress<br>4</p>
+            </div>
+            <div class="approved">
+                <img class="status-icon" src="images/group2.png" alt="group2" height="40px" width="40px"/>
+                <p class="status-approved">Approved<br>15</p>
+            </div>
+            <div class="hold">
+                <img class="status-icon" src="images/group3.png" alt="group3" height="40px" width="40px"/>
+                <p class="status-hold">Hold<br>0</p>
+            </div>
+            <div class="time">
+                <h4 class="time-header">Request<br>Processed</h4>
+                <div class="time-date">
+                    <p>Month of Date <span>: 0</span></p>
+                    <p>Year Of Date <span>: 0</span></p>
+                </div>
+            </div>
+            <div class="my-task">
+                <p>My Task</p>
+                <img class="mytask-image" src="images/sla.png" alt="my-task"/>
+            </div>
+            <div class="sla">
+                <p>SLA</p>
+                <img class="sla-image" src="images/sla.png" alt="sla"/>
+            </div>
+            <div class="box">
+                <button class="btn-search"><i class="fas fa-search"></i>Search</button>
+                <button class="btn-view"><i class="fas fa-eye"></i>View</button>
+                <button class="btn-delete"><i class="fas fa-trash"></i>Delete</button>
+                <table class="table">
+                    <tr>
+                      <th>Ref No</th>
+                      <th>Propert Status</th>
+                      <th>Property Type</th>
+                      <th>Land Area</th>
+                      <th>District</th>
+                      <th>Available Form</th>
+                      <th>SLA Deadline</th>
+                      <th>Status</th>
+                    </tr>
+                    <!-- <tr>
+                      <td>596</td>
+                    </tr> -->
+                </table>
+            </div>
+        </div>
+
+        <!-- Top navbar -->
+
+        <div class="navbar">
+            <div class="navbar-top">
+                <img class="final-image" src="images/final 2.png"/>
+                <img class="profile" src="images/profile.png" alt="profile" />
+            </div>
+            <div class="moh">
+                <img class="content moh" src="images/moh-logo 2.png" alt="moh" />
+            </div>
+            <div class="dropmenu">
+                <img class="dropdown-icon" src="images/Vector.png" alt="vector" />
+                <select class="dropdown" name="profile">
+                  <option class="lt">Hello, Sheik Fathima</option>
+                  <option class="lt">Hello, Fathima</option>
+                  <option class="lt">Hello, Sheik</option>
+                  <option class="lt">Hello, Berlin</option>
+                </select>
+            </div>
+            <div class="vl">|</div>
+            <div class="list">
+                <ul class="nav-list">
+                    <li>
+                        <img class="content" src="images/i5.png" alt="i5" height="29px" width="25px" />
+                    </li>
+                    <li>
+                        <img class="content" src="images/i4.png" alt="i4" height="30px" width="28px" />
+                    </li>
+                    <li>
+                        <img class="content" src="images/i2.png" alt="i2" height="29px" width="29px" />
+                    </li>
+                    <li>
+                        <img class="content" src="images/i3.png" alt="i3" height="27px" width="35px" />
+                    </li>
+                    <li>
+                        <img class="content" src="images/i1.png" alt="i1" height="27px" width="27px" />
+                    </li>
+                    <li>
+                        <img class="content" src="images/singapore-flag.png" alt="flag" height="32px" width="50px" />
+                    </li>
+                </ul> 
+            </div>
+            <div class="vll">|</div>
+            <div class="sg-gov">
+                <img class="sg" src="images/sg.png" alt="sg" />
+            </div>
+        </div>
+
+            <!-- Left navbar -->
+
+            <div class="navbar-left">
+                <ul class="leftnav-list">
+                    <li class="leftnav-items">
+                        <img class="leftnav-content" src="images/speedometer 1.png" alt="dashboard" height="60px" width="60px" />
+                        <p>Dashboard</p>
+                    </li>
+                    <li class="leftnav-items">
+                        <img class="leftnav-content" src="images/history.png" alt="history" height="50px" width="50px" />
+                        <p>History</p>
+                    </li>
+                    <li class="leftnav-items">
+                        <img class="leftnav-content" src="images/schedule.png" alt="calender" height="50px" width="50px" />
+                        <p>Calender</p>
+                    </li>
+                    <li class="leftnav-items">
+                        <img class="leftnav-content" src="images/microphone.png" alt="announcements" height="50px" width="50px" />
+                        <p>Announcements</p>
+                    </li>
+                    <li class="leftnav-items">
+                        <img class="leftnav-content" src="images/application.png" alt="apps" height="57px" width="57px" />
+                        <p>Apps</p>
+                    </li>
+                    <li class="leftnav-items">
+                        <img class="leftnav-content signout" src="images/log-out.png" alt="signout" height="43px" width="43px" />
+                        <p>Sign Out</p>
+                    </li>
+                </ul>
+            </div>
+        
+    </div>
+</body>
+</html>
